@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/img_fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: PT serif;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.zone-texte {
+    width: 100%;
+    height: 114px;
+    background: rgba(62, 46, 46, 0.7);
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.zone-connexion {
+    width: 100%;
+    height: 565px;
+    margin-bottom: 5%;
+}
+
+.zone-form {
+    width: 50%;
+    height: 70%;
+    margin-top: 9%;
+    border: 1px solid rgba(87, 45, 45, 0.377);
+}
+
+.login {
+    width: 100%;
+    height: 18%;
+    font-size: 23px;
+    color: #ffffff;
+    background: rgba(22, 4, 4, 0.7);
+}
+
+.zone-formulaire {
+    width: 100%;
+    height: 82%;
+    margin-bottom: 10%;
+    background-color: rgba(66, 60, 60, 0.26);
+}
+
+.form {
+    width: 80%;
+    height: 80%;
+}
+
+.champ {
+    width: 100%;
+    height: 30%;
+}
+
+.champ input {
+    width: 80%;
+    height: 70%;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 10px;
+    background: rgba(66, 60, 60, 0.39);
+    border: 3px solid #ffffff;
+}
+
+.champ label {
+    color: #ffffff;
+    margin-left: 10%;
+    font-size: 25px;
+    text-align: left;
+    margin-right: 5%;
+}
+
+.iconify {
+    width: 10%;
+    height: 60%;
+}
+
+.champ small {
+    font-size: 15px;
+}
+
+.validation {
+    width: 100%;
+    height: 30%;
+}
+
+.validation a {
+    width: 65%;
+    font-size: 30px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.validation button {
+    width: 30%;
+    height: 65%;
+    font-size: 25px;
+    color: #ffffff;
+    border-radius: 15px 0px;
+    background: #2f1d1d;
+    border: 3px solid #ffffff;
+}
+
+.zone-inscrip {
+    width: 99%;
+    height: 561px;
+    background: rgba(66, 60, 60, 0.39);
+    margin-left: 0.5%;
+    margin-top: 0.2%;
+}
+
+.inscrire {
+    float: right;
+    height: 190px;
+    margin-right: 28px;
+}
+
+.error-msg {
+    font-size: 13px;
+    float: left;
+    margin-left: 36%;
+}
+
+.input-inscript {
+    width: 90%;
+    height: 30%;
+}
+
+.input-inscript input {
+    width: 50%;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: rgba(66, 60, 60, 0.39);
+    border: 3px solid #ffffff;
+}
+
+.text-label {
+    text-align: left;
+    color: #ffff;
+    font-size: 23px;
+    margin-right: 5%;
+}
+
+.compte {
+    float: right;
+    width: 15%;
+    height: 50px;
+    margin-top: 13%;
+    margin-right: 11%;
+}
+
+.compte button {
+    width: 100%;
+    height: 58px;
+    font-size: 25px;
+    color: #ffffff;
+    border-radius: 15px 0px;
+    float: right;
+    margin-right: 30%;
+    background: #2f1d1d;
+    border: 3px solid #ffffff;
+}
+
+.choisir {
+    float: left;
+    width: 18%;
+    height: 50px;
+    margin-top: 9%;
+    margin-left: 11%;
+}
+
+.choisir button {
+    width: 100%;
+    height: 58px;
+    font-size: 25px;
+    color: #ffffff;
+    border-radius: 15px 0px;
+    float: right;
+    margin-right: 00%;
+    background: #2f1d1d;
+    border: 3px solid #ffffff;
+}
+
+.avatar {
+    width: 13%;
+    height: 169px;
+    border: 4px solid #ffff;
+    border-radius: 106px;
+    margin-left: 13%;
+    margin-top: 6%;
+}
+
+h1 {
+    color: #fff;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.zone-admin {
+    width: 99%;
+    height: 561px;
+    background: rgba(66, 60, 60, 0.39);
+    margin-left: 0.5%;
+    margin-top: 0%;
+}
+
+.menu {
+    margin-top: 3%;
+}
+
+.zone-avat {
+    height: 65vh;
+    margin-top: 2%;
+    border-radius: 20px 7px 7px 7px;
+    background: rgba(66, 60, 60, 0.39);
+}
+
+.zone-menu {
+    height: 72vh;
+    margin-left: 35%;
+    margin-top: -39%;
+    border-radius: 7px;
+    background: rgba(66, 60, 60, 0.39);
+}
+
+.param-quiz {
+    background-color: #4b444463;
+    height: 15vh;
+    margin-top: 0.7%;
+}
+
+.text-param-quiz {
+    color: rgb(250, 248, 248);
+    font-size: 28px;
+    margin-top: 1.5%;
+    font-weight: bold;
+}
+
+.deconnexion {
+    margin-top: -3%;
+    height: 50vh;
+}
+
+.deconnexion button {
+    margin-top: -3%;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 7px;
+    background: #2f1d1d;
+}
+
+.zone-avat-admin {
+    border: 1px solid rgb(24, 17, 17);
+    height: 25vh;
+    background-color: rgb(24, 17, 17);
+    border-radius: 20px 0px 0px 0px;
+}
+
+.img-avat {
+    width: 30%;
+    height: 105px;
+    border-radius: 50px;
+    margin-top: 5%;
+    margin-left: 7%;
+    border: 3px solid #fff;
+}
+
+.zone-avat-menu {
+    height: 34.6vh;
+    color: #fff;
+}
+
+.zone-avat-menu a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.prenom {
+    color: #fff;
+    font-size: 20px;
+    margin-top: -15%;
+    margin-left: 50%;
+}
+
+.nom {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 0%;
+    margin-left: 60%;
+}
+
+.zone-inscrip-admin {
+    width: 99%;
+    height: 400px;
+    background: rgba(66, 60, 60, 0.39);
+    margin-left: 0.5%;
+    margin-top: 0.2%;
+}
+
+.text-inscrire {
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.text-label-admin {
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.text-label-admin label {
+    margin-right: 20%;
+}
+
+.inscrire-admin {
+    float: right;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+.input-inscript-admin {
+    width: 90%;
+    height: 25%;
+}
+
+.input-inscript-admin input {
+    width: 50%;
+    height: 40px;
+    float: left;
+    color: #ffffff;
+    border-radius: 10px;
+    background: rgba(66, 60, 60, 0.39);
+    border: 3px solid #ffffff;
+}
+
+.choisir-admin {
+    float: right;
+    width: 25%;
+    height: 45px;
+    margin-right: 8%;
+}
+
+.choisir-admin button {
+    width: 100%;
+    height: 45px;
+    font-size: 19px;
+    color: #ffffff;
+    border-radius: 15px 0px;
+    float: right;
+    margin-right: 00%;
+    margin-top: 15%;
+    background: #2f1d1d;
+    border: 3px solid #ffffff;
+}
+
+.compte-admin {
+    width: 22%;
+    height: 45px;
+    border-radius: 15px 0px;
+    float: right;
+    margin-right: 40%;
+    margin-top: 0%;
+    background: #2f1d1d;
+    border: 3px solid #ffffff;
+}
+
+.compte-admin button {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.avatar-admin {
+    width: 23%;
+    height: 168px;
+    border: 4px solid #ffff;
+    border-radius: 106px;
+    margin-left: 63%;
+    margin-top: 3%;
+}
+
+.liste-question {
+    width: 99%;
+    height: 370px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: rgba(48, 46, 46, 0.39);
+    margin-left: 0.5%;
+    margin-top: 0%;
+}
+
+.question-par-jeu {
+    color: #fff;
+    font-size: 23px;
+    margin-top: 3%;
+    margin-left: 30%;
+}
+
+.nombre {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin-left: 11px;
+    margin-top: 0%;
+}
+
+.nombre input {
+    width: 35%;
+    height: 35px;
+}
+
+.boutton-ok button {
+    width: 42px;
+    height: 36px;
+    float: right;
+    margin-top: -37px;
+    margin-right: 131px;
+    border-radius: 7px;
+    box-shadow: 1px 1px #fff;
+    background-color: #383030;
+    color: white;
+}
+
+.liste-joueur {
+    width: 99%;
+    height: 350px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: rgba(48, 46, 46, 0.39);
+    margin-left: 0.5%;
+    margin-top: 0%;
+}
+
+.liste-admin {
+    width: 99%;
+    height: 350px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: rgba(48, 46, 46, 0.39);
+    margin-left: 0.5%;
+    margin-top: 1%;
+}
+
+.liste-joueur-score {
+    color: #fff;
+    font-size: 23px;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.liste-admins {
+    color: #fff;
+    font-size: 23px;
+    margin-top: 5%;
+    margin-left: 30%;
+}
